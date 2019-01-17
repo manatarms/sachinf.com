@@ -1,0 +1,33 @@
+{
+  "name": "sachinf.com",
+  "version": "1.0.0",
+  "description": "Source code for sachinf.com",
+  "keywords": [
+    "sachinf.com"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:manatarms/sachinf.com.git",
+  "bugs": "https://github.com/manatarms/sachinf.com/issues",
+  "homepage": "https://sachinf.com",
+  "author": "Sachin Fernandes <fernandes.sachin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "lint": "./node_modules/.bin/eslint ./src/*.js ./__tests__/*.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.12.0",
+    "eslint-plugin-jest": "^22.1.3",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^23.6.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {}
+}
