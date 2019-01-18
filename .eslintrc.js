@@ -4,6 +4,9 @@ module.exports = {
     es6: true,
     "jest/globals": true
   },
+  globals: {
+    assets: true
+  },
   extends: ["eslint:recommended", "plugin:jest/recommended"],
   parserOptions: {
     ecmaFeatures: {
@@ -12,11 +15,11 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: "module"
   },
-  plugins: ["react","jest"],
+  plugins: ["react", "jest"],
   rules: {
-    indent: ["error", 4],
+    indent: ["error", 2],
     "linebreak-style": ["error", "unix"],
-    quotes: ["error", "double"],
+    quotes: ["error", "double", { allowTemplateLiterals: true }],
     semi: ["error", "always"]
   }
 };
