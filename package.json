@@ -29,5 +29,7 @@
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "static-worker": "^0.0.3"
+  }
 }

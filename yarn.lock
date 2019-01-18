@@ -5429,6 +5429,11 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
+static-worker@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/static-worker/-/static-worker-0.0.3.tgz#4bddfd32750fb565d0cc976b2b0d40607392c357"
+  integrity sha512-rr2XOfHTsoi2Xp5WqZaUm4dsdYIYWPiRL2D8fLXsA/2VuLuGfZmUOHj7m5BZI2B8st7/X6yj7B9ujh1Q6PPq9Q==
+
 stealthy-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
